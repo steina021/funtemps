@@ -1,9 +1,5 @@
 package conv
 
-import (
-	
-)
-
 /*
   I denne pakken skal alle konverteringfunksjonene
   implementeres. Bruk engelsk.
@@ -44,7 +40,7 @@ func KelvinToCelsius(value float64) float64 {
 // Konverterer Fahrenheit til Celsius
 func FahrenheitToCelsius(value float64) float64 {
 	// Legger inn formellen Celsius = (Farhrenheit - 32)/(5/9)
-	answer := (value-32) / (1.8)
+	answer := (value - 32) / (1.8)
 	return answer // (value - 32) * 5 / 9
 }
 
